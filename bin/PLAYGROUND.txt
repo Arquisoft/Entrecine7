@@ -1,2 +1,6 @@
 This is just a file to play with Version control...
+<<<<<<< HEAD
+=======
+Soy Alberto
+>>>>>>> branch 'master' of https://github.com/Arquisoft/Entrecine7.git
 Some change
