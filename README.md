@@ -7,6 +7,6 @@ Author
 ======
 Jose Emilio Labra Gayo
 Alberto Lopez Boto
-Cristina Fern�ndez Fern�ndez
+Cristina Fernández Fernández
 Antonio Cueva Fernandez
 
