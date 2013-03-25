@@ -13,6 +13,15 @@ private int seats;
 /** Individual price of each seat. */
 private double pricePerSeat;
 
+private String disponibilidad;
+
+public String isDisponibilidad() {
+	return disponibilidad;
+}
+public void setDisponibilidad(String disponibilidad) {
+	this.disponibilidad = disponibilidad;
+}
+
 /**
  * @param seats Number of seats
  * @param pricePerSeat Price of each seat
@@ -22,6 +31,16 @@ public Reservation(int seats, double pricePerSeat) {
  this.pricePerSeat = pricePerSeat;
 }
 
+
+
+public Reservation(int seats) {
+	this.seats = seats;
+}
+public Reservation(int seats, double pricePerSeat, String disponibilidad) {
+	this.seats = seats;
+	this.pricePerSeat = pricePerSeat;
+	this.disponibilidad = disponibilidad;
+}
 /**
  * @return Price of the reservation
  */
