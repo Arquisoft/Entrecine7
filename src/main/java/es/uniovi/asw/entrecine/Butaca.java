@@ -3,6 +3,10 @@ package es.uniovi.asw.entrecine;
 public class Butaca {
 
 	private EstadoButaca estado;
+	
+	public Butaca(){
+		estado = EstadoButaca.LIBRE;
+	}
 
 	public void reservar() {
 		if(estado.equals(EstadoButaca.LIBRE))
